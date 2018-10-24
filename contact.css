@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /*background-image: url("assets/images/mochaGrunge.png");*/
+}
+#top {
+    background-color: white;
+    height: 80px;
+}
+#name {
+    text-align: center;
+    width: 35%;
+    float: left;
+    padding: 16.5px;
+    margin-left: 90px;
+    font-family: fantasy;
+    background-color: teal;
+    color: white;
+    vertical-align: middle;
+}
+nav {
+    float: right;
+    width: 55%;
+}
+nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 2%;
+    margin-right: 100px;
+}
+ul li a {
+    text-decoration: none;
+    /* color: aliceblue; */
+    text-shadow: 2px 3px #9E9E9E;
+    }
+a {
+    color: gainsboro;
+}
+a:hover {
+    color: darkgoldenrod;
+}
+.contactname {
+    text-align: left;
+}
+.contactemail {
+    text-align: left;
+}
+.contactmessage {
+    text-align: left;
+}
+/*###############End of the Top section#################*/
+
+.wrapper {
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    background-image: url(assets/pow-star.png)
+}
+.inside {
+    width: auto;
+    margin-left: 90px;
+    margin-right: 300px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    padding: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+#about {
+    border-color: grey;
+    border-width: 4px;
+    border-bottom-style: solid;
+    width: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0px 40px 0px 40px;
+    text-align: left;
+    color: teal;
+}
+#submit {
+    float: left;
+    background-color: teal;
+    padding: 4px;
+    color: white;
+}
+/*#######################End of the Body################*/
+footer {
+    text-align: center;
+    height: 44px;
+    border-top-style: solid;
+    border-top-color:teal;
+    border-width: 1em;
+    color: cornflowerblue;
+    background-color: grey;
+}
+#email {
+    color: cadetblue;
+}
